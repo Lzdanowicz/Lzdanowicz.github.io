@@ -1,0 +1,77 @@
+.links {
+  color: #000080;
+  background-color: #ffffff;
+  font-size: 0.7em;
+}
+
+ul li a {
+  color: #800080;
+  font-size: 1.4em;
+}
+ul li a:visited {
+  color: #ff0000;
+}
+ul li.left {
+  width: 43%;
+  height: 55px;
+  float: left;
+  margin-left: 7%;
+}
+ul li.right{
+  width: 43%;
+  height: 55px;
+  float: right;
+  margin-right: 5%;
+  margin-left: 2%;
+}
+ul li.last{
+  text-decoration: none;
+}
+.clear {
+  clear:both;
+}
+a.here {
+  font-size: 0.7em;
+}
+.title {
+text-align: center;
+font-weight: bold;
+font-size: 1em;
+color: rgb(0, 0, 128);
+}
+span.bigtext {
+  font-size: 2.1em;
+}
+.geico {
+  text-align: center;
+  margin: auto;
+  font-size: 1em;
+  color: rgb(0, 0, 128);
+}
+html {
+  color: rgb(0, 0, 128);
+}
+p.comments {
+  font-size: 0.8em;
+}
+p.copyright {
+  font-size: 0.6em;
+}
+.line {
+  width: 100%;
+  border-top: 1px solid #C0C0C0;
+}
+span.bold {
+  font-weight: bold;
+}
+img.warren {
+  width: 10%;
+}
+span.impact {
+  font-family: impact;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+}
+span.smaller {
+  font-size: 0.8em;
+}
