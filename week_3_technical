@@ -1,0 +1,47 @@
+<!DOCSTYLE html>
+<html>
+<head>
+  <title> Luke Zdanowicz Index </title>
+  <link rel="stylesheet" type="text/css", meta-charset="UTF-8" href="blog_temp.css" />
+</head>
+
+  <body>
+
+<div id= "wrapper">
+<div id= "header">
+  <h1><span style= "font-family:Oldtown, fantasy"> {Develop}</span><span style="margin-left: 30px"> Luke Zdanowicz </h1>
+</div></span>
+<div id= "banner">
+  <ul>
+    <li><a href ="#"> Home</a></li><li>
+     <a href="#">About Me</a></li><li>
+     <a href="#">Projects</a></li><li>
+     <a href="#">Blog</a>
+        <ul>
+            <li><a href="#">Technical</a></li>
+            <li><a href="#">Cultural</a></li>
+        </ul>
+   </li>
+
+  <li><a href="#"> <img style:height="20px" width="20px" float="right" src="http://smallbiztrends.com/wp-content/uploads/2009/08/twitter-button.gif"/></a></li>
+   <li><a href="#"> <img style:height="20px" width="20px" src = "http://mosquitojoefranchise.com/Library/images/Linkedin-logo-icon-small.png" />
+   </div>
+
+<div id = "posts">
+  <h3> Why Javascript is popular in Web-Development? </h3>
+
+
+  <p> Before immersing myself in code at DevBootCamp, I wouldn't be able to tell you much about Javascript and its functions as a development language even though I would always hear of it's importance within the programming world. What seperates Javascript from many other languages is the fact that it is a dynamic language that allows room for interaction within objects in the environment. Because of this functionality Javascript is often used in the development of games as well as interactive web applications. Another interesting aspect of Javascript is the fact that it has allot of built in functions, something that I haven't seen much of in my brief expereince with programming languages. In addition Javascript code is also executed on the client's server which saves bandwith and puts less stress on the server.  </p>
+
+
+
+
+
+</div>
+
+
+</ul>
+
+
+</body>
+</html>
