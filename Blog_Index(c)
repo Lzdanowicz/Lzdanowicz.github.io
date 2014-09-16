@@ -1,0 +1,48 @@
+<!DOCSTYLE html>
+<html>
+<head>
+  <title> Luke Zdanowicz Index </title>
+  <link rel="stylesheet" type="text/css", meta-charset="UTF-8" href="blog_stylesheet.css" />
+</head>
+
+  <body>
+
+<div id= "wrapper">
+<div id= "header">
+  <h1><span style= "font-family:Oldtown, fantasy"> {Develop}</span><span style="margin-left: 30px"> Luke Zdanowicz </h1>
+</div></span>
+<div id= "banner">
+  <ul>
+    <li><a href ="#"> Home</a></li><li>
+     <a href="#">About Me</a></li><li>
+     <a href="#">Projects</a></li><li>
+     <a href="#">Blog</a>
+        <ul>
+            <li><a href="#">Technical</a></li>
+            <li><a href="#">Cultural</a></li>
+        </ul>
+   </li>
+
+  <li><a href="#"> <img style:height="20px" width="20px" float="right" src="http://smallbiztrends.com/wp-content/uploads/2009/08/twitter-button.gif"/></a></li>
+   <li><a href="#"> <img style:height="20px" width="20px" src = "http://mosquitojoefranchise.com/Library/images/Linkedin-logo-icon-small.png" />
+   </div>
+
+<div id = "posts">
+  <ul>
+    <li><a href="#"> Week-1 </li></a>
+    <li><a href="#"> Week-2 </li></a>
+    <li><a href="week_3_cultural.html"> Week-3 </li></a>
+
+
+
+
+
+
+</div>
+
+
+</ul>
+
+
+</body>
+</html>
