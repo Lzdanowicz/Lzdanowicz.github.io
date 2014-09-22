@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+
+        <title> Luke's Blog </title>
+
+
+    <link rel="stylesheet" type="text/css" href="index_style.css" meta charset="UTF-8"/>
+  </head>
+
+    <body>
+
+            <div id="wrapper">
+              <div id="header">
+
+            <h1 style="text-align:center">    {developed} <span style="margin-left: 30px"> Luke Zdanowicz </h1> </span>
+
+
+          </div>
+                <div id="Sidebar">
+                  <img src="http://m.c.lnkd.licdn.com/mpr/pub/image-yd8VUbYiXzMmEdHGM8w4sgFPpVCQBNHDJnzpaTSip6n3P8_cyd8pD4vipyklOZGXh8sK/luke-zdanowicz.jpg"/>
+                  <ul>
+                    <li><a href="#">About Me</li></a>
+                       <li><a href="#">Blog</li></a>
+                      <li><a href="#">Projects</li></a>
+                        <li><a href="#">Contact<li></a>
+                          <li><a href="#">Twitter<li></a>
+                </div>
+                  <div id="post">
+                    <h2> CSS Positioning </h2>
+                    <p>
+                        One of the major issues in technology today is user privacy. Modern technology brings us into a world where we are more connected than we have been at anytime in history and it is also a change that puts many cultural changes in perspective. Never before has information about any given individuals been so accessible publicly, which brings up the need for a conversation as to where that line should be drawn. We live in a culture that values privacy and stops short of believing that all information should be publicly made available in a broad sense. Another branch of this issue which goes hand in hand is the idea of identity theft and technology users having so much of their daily lives leveraged within their online information. This could be a major issue as we have seen with data breaches of major companies within the last few years. As technology expands within our daily lives, its hard to define the fine line to respect. I think the best overall approach looking at the problem is for users to be mindful that decisions made within the technological world has an effect on economics for individual companies and more generally the culture of the tech world in general. The driving force going forward would ideally be a mindful consumer, buying the idea of privacy setting the tone for the tech world itself to be mindful of the issue and respect consumer demands.
+                    </p>
+                </div>
+              </div>
+            </div>
+            </body>
+            </html>
