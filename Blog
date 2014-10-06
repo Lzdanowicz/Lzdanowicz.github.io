@@ -31,10 +31,7 @@
                   <div id="post">
                     <h2> CSS Positioning </h2>
                     <p>
-                        One of the most important things to note, when working with CSS is the fluidity of the elements within the webpage. There are a few different properties that elements can take form under when discussing this topic. A fixed positioning is an element that is fixed in size within the browser window, no matter how small the window is made the element will retain it's initial size. This form of positioning was popular in the days of a standard screen where developers did not have to worry how a webpage would form onto a smaller screen, but with the development of handset technology that notion has changed.
-                        Absolute positioning on the other hand states that an element will position itself relative to the first parent element that has a position other than static. This is a step beyond the fixed positioning since it does allot for fluidity between the elements.
-                         Finally there is Relative positioning in which and element is positioned reletive to its normal position in the flow of the site, this allows for added fluidity when adjusting to different screen and window sizes.
-
+                        Class methods in ruby are the building blocks essential for functional programs. We use them to define what capabilities we want objects to have within the program. This is done by storing variable values as well as defining individual methods that have an effect on objects. The syntax within a class method allows a developer to set and adjust specific traits that will cause an object to run through a certain action. Classes can also inherit methods from “parent” classes that were written before them, this allows flexibility when creating new objects that could have slightly different characteristics than others.
                     </p>
                 </div>
               </div>
