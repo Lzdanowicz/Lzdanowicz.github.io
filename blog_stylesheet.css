@@ -76,18 +76,36 @@ display:none;
   height: 80%;
   width:70%;
   display:inline-block;
-  background-color: grey;
   align: center;
   color: black;
 }
 
-#posts h3{
+#posts h2 {
+  display: inline-block;
+  text-decoration:none;
+  color: white;
   font-size: 30px;
-  text-decoration: underline;
-  text-align: center;
+  text-shadow: 2px 0 0 black;
 }
 
-#posts p{
-  text-align:left;
-  font-size: 20px;
+#posts ul {
+  list-style:none;
+  font-size: 25px;
+}
+
+#posts ul a:hover {
+  color:black;
+}
+
+#posts ul li{
+  display: block;
+  text-decoration:none;
+  padding: 10px;
+  color: white;
+  text-shadow: 2px 0 0 black;
+}
+
+#posts ul li a{
+  color:white;
+  text-decoration: none;
 }
