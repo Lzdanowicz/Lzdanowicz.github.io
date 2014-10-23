@@ -1,0 +1,106 @@
+*
+{margin: 0
+  padding:0;
+}
+
+body{
+  background-image: url('http://fc09.deviantart.net/fs71/i/2011/361/b/4/endless_foggy_ocean_by_foxstox-d4kdo7f.jpg');
+}
+
+#wrapper {
+  width: 100%;
+  height:100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#header{
+margin-top: 30px;
+}
+
+#header h1
+{
+text-align: center;
+color:black;
+font-size: 40px;
+}
+
+#banner{
+    width:70%;
+    height: 13%;
+    float:left;
+    margin-right: 30px;
+}
+
+#banner ul {
+    list-style: none;
+    text-align: left;
+    position: relative;
+    text-decoration: none;
+}
+
+#banner ul li{
+    display:inline-block;
+    padding: 2px;
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    text-shadow: 2px 0 0 black;
+
+}
+
+#banner ul a {
+  text-decoration:none;
+  color: black;
+}
+
+
+#banner ul a:hover{
+  color: white;
+  }
+
+#banner ul li a, visited {
+  display:block;
+  padding: 15px;
+}
+
+#banner ul li:hover ul{
+    display:block;
+}
+
+#banner ul ul{
+  display:none;
+  position:absolute;
+}
+
+#sidebar{
+  display:inline-block;
+  width: 15%;
+  height: 80%;
+  position: absolute;
+  margin-top: 80px;
+  color: black;
+}
+
+#posts{
+  height: 80%;
+  width: 60%;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  margin-left: 200px;
+  background-color: #F1F1F1;
+  border-radius: 20px;
+}
+
+#posts h3{
+  text-decoration: underline;
+  margin-left: 20px;
+}
+
+
+#sidebar h3{
+ text-decoration: underline;
+ margin-top: 50px;
+}
