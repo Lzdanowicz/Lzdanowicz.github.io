@@ -1,0 +1,54 @@
+<!DOCSTYLE html>
+<html>
+<head>
+  <title> Luke Zdanowicz Index </title>
+  <link rel="stylesheet" type="text/css", meta-charset="UTF-8" href="blog_post.css" />
+</head>
+
+  <body>
+
+<div id= "wrapper">
+<div id= "header">
+  <h1><span style= "font-family:Oldtown, fantasy"> {Develop}</span><span style="margin-left: 30px"> Luke Zdanowicz </h1>
+</div></span>
+<div id= "banner">
+  <ul>
+    <li><a href ="#"> Home</a></li><li>
+     <a href="#">About Me</a></li><li>
+     <a href="#">Projects</a></li><li>
+     <a href="#">Blog</a>
+        <ul>
+            <li><a href="Blog_IndexT.html">Technical</li></a>
+            <li><a href="Blog_IndexC.html">Cultural</li></a>
+        </ul>
+   </li>
+
+  <li><a href="#"> <img style:height="20px" width="20px" float="right" src="http://smallbiztrends.com/wp-content/uploads/2009/08/twitter-button.gif"/></a></li>
+   <li><a href="#"> <img style:height="20px" width="20px" src = "http://mosquitojoefranchise.com/Library/images/Linkedin-logo-icon-small.png" />
+</div>
+</ul>
+
+<div id="sidebar">
+<h3> Archived Posts </h3>
+<ul>
+    <li> post 1
+      <li> post 2
+      </ul>
+  </div>
+
+ <div id = "posts">
+  <h3> The Art of Asking Questions </h3>
+  <p><SPAN STYLE = "margin-left: 30px">
+ believe one of the more daunting challenges I have at times where I’m learning new material with unfamiliar terminology is asking direct questions that get to the point and clarify what I need to know. I think part of the reason for this could be confidence with new material, I tend to over-simplify questions when I should be more specific and direct. One thing I can definitely work on for questions through email or postings is to make a clear and descriptive subject line, I fall into the category of making a general subject so that its hard for others to immediately digest what it is i’m asking.
+  Another important part of asking technical questions is providing feedback to anyone involved in helping solving the problem, this makes it easier to learn from other users and develop a stronger understanding of the subject matter.
+  A great rule to follow and one that  I will keep in mind is to imagine I was the one answering the question, I can remember answering questions that  I believed to be confusing and hard to understand and it really limited my ability to answer the question in an effective and confident manner. Another technique I will have in mind will be to use illustrations to make the question as descriptive in possible, this could be a simplified line of code for a general question or a specific line of code when trying to figure out the source of an error.
+  These are just a few of the methods I will attempt to incorporate into my programming education given the importance of asking efficient and direct questions.
+
+</SPAN>
+  </p>
+
+</div>
+
+</div>
+</body>
+</html>
