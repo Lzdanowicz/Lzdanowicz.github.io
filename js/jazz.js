@@ -22,7 +22,7 @@ SC.get(
   },
   function(tracks){
     var random=Math.floor(Math.random()*49);
-    SC.oEmbed("http://soundcloud.com/forss/flickermood",{auto_play:true}, document.getElementById('target'));
+    SC.oEmbed(tracks[random].uri,{auto_play:true}, document.getElementById('target'));
   }
   );
 };
@@ -30,9 +30,6 @@ SC.get(
 
 
 window.onload=function(){
-SC.initialize({
-  client_id: '472ea9cffc056ea4f5bc762b4bc00655',
-});
 
 var link = document.getElementById('playButton');
 link.onclick = function(e){
