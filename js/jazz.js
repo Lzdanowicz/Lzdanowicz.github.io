@@ -33,7 +33,7 @@ SC.initialize({
 var link = document.getElementById('playButton')
 link.onclick = function(e){
   e.preventDefault();
-  playSomeSound("jazz");
+  playSomeSound("Rap");
 }
 
 };
