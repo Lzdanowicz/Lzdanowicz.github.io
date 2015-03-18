@@ -1,7 +1,7 @@
 
 function playSomeSound(){
 SC.get('/tracks',{
-    genres:"jazz",
+    genre:"jazz",
     bpm:{
       from:100
     }
