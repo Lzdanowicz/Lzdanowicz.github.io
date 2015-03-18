@@ -5,10 +5,9 @@ request.onreadystatechange = function () {
     console.log(request.responseText);
   }
 };
+
 request.open('GET', 'http://api.soundcloud.com/tracks?client_id=472ea9cffc056ea4f5bc762b4bc00655');
 request.send();
-setRequestHeader("Access-Control-Allow-Origin","*")
-console.log(request.status)
 
 
 
@@ -34,9 +33,8 @@ SC.initialize({
 var link = document.getElementById('playButton')
 link.onclick = function(e){
   e.preventDefault();
-  playSomeSound("Rap");
-}
-
+  playSomeSound("jazz");
+  }
 };
 
 
