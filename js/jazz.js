@@ -21,7 +21,7 @@ SC.get(
   },
   function(tracks){
     var random=Math.floor(Math.random()*49);
-    SC.oEmbed(tracks[random].uri, {auto_play:true}, document.getElementsByClassName('target'));
+    SC.oEmbed(tracks[random].permalink_url, {auto_play:true}, document.getElementsByClassName('target'));
   });
 };
 
