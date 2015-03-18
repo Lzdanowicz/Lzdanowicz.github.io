@@ -10,6 +10,9 @@
 // request.send();
 
 
+SC.initialize({
+  client_id: '472ea9cffc056ea4f5bc762b4bc00655',
+});
 
 function playSomeSound(genre){
 SC.get(
