@@ -30,10 +30,15 @@ var randomTrack;
     SC.oEmbed(pickedTrack.permalink_url, {auto_play: true, maxheight: 200, color: "#DF3939"}, document.getElementById('target'));
   }
 
+  function pickRandomTrack() {
+    randomIndex = Math.floor(Math.random() * playlist.length);
+    randomTrack = playlist.splice(randomIndex, 1)[0];
+  }
 
   $("#playButton").click(function(e){
     e.preventDefault();
-    playSomeSound("jazz"); // also e.currentTarget
+    playSomeSound("jazz");
+    pickRandomTrack() // also e.currentTarget
     embedTrack(randomTrack);
   });
 
