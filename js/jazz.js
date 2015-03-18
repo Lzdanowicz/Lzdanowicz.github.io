@@ -8,7 +8,7 @@
 
 // request.open('GET', 'http://api.soundcloud.com/tracks?client_id=472ea9cffc056ea4f5bc762b4bc00655');
 // request.send();
-
+var randomTrack;
 
  function playSomeSound(genre) {
     SC.get('/tracks', { genres: genre, limit: 100 }, function(tracks){
