@@ -1,4 +1,3 @@
-
 var request = new XMLHttpRequest();
 
 request.onreadystatechange = function () {
@@ -8,6 +7,8 @@ request.onreadystatechange = function () {
 };
 request.open('GET', 'http://api.soundcloud.com/tracks?client_id=472ea9cffc056ea4f5bc762b4bc00655');
 request.send();
+setRequestHeader("Access-Control-Allow-Origin","*")
+console.log(request.status)
 
 
 
