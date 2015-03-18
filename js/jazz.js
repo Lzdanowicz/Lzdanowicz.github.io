@@ -23,14 +23,13 @@
   }
 
     function embedTrack(pickedTrack) {
-    SC.oEmbed(pickedTrack.permalink_url, {auto_play: true, maxheight: 260, color: "#DF3939"}, document.getElementById('target'));
+    SC.oEmbed(pickedTrack.permalink_url, {auto_play: true, maxheight: 200, color: "#DF3939"}, document.getElementById('target'));
   }
 
 
   $("#playButton").click(function(e){
     e.preventDefault();
     playSomeSound("jazz"); // also e.currentTarget
-    pickRandomTrack();
     embedTrack(randomTrack);
   });
 
