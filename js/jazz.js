@@ -15,11 +15,9 @@
 function playSomeSound(genre){
 SC.get(
   '/tracks',
-  {
+    {
     genres:genre,
-    bpm:{
-      from:100
-    }
+    limit:100
   },
   function(tracks){
     var random=Math.floor(Math.random()*49);
