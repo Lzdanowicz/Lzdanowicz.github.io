@@ -20,6 +20,7 @@ body{
   font: 400 35px/1.5 'Pacifico', Helvetica, sans-serif;
   color:white;
   text-align: middle;
+  border-radius: 20px;
 }
 
 #top-right-div{
@@ -33,6 +34,7 @@ body{
   opacity: 0.3;
   font: 400 35px/1.5 'Pacifico', Helvetica, sans-serif;
   color:white;
+  border-radius: 20px;
 }
 
 #banner{
@@ -52,6 +54,7 @@ body{
   opacity: 0.3;
   font: 400 35px/1.5 'Pacifico', Helvetica, sans-serif;
   color:white;
+  border-radius: 20px;
 }
 
 #bottom-right-div{
@@ -63,6 +66,7 @@ body{
   opacity: 0.3;
   font: 400 35px/1.5 'Pacifico', Helvetica, sans-serif;
   color:white;
+  border-radius: 20px;
 }
 
 a{
