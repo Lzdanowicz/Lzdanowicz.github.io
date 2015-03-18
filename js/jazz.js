@@ -12,7 +12,6 @@ var randomTrack;
 
   SC.initialize({
     client_id: '472ea9cffc056ea4f5bc762b4bc00655',
-    redirect_uri: 'http://www.soundcloud.com/voamusic'
   });
 
  function playSomeSound(genre) {
