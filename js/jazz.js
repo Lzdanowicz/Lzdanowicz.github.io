@@ -34,11 +34,11 @@ SC.initialize({
   client_id: '472ea9cffc056ea4f5bc762b4bc00655',
 });
 
-var link = document.getElementById('playButton')
+var link = document.getElementById('playButton');
 link.onclick = function(e){
   e.preventDefault();
   playSomeSound("jazz");
-  }
+  };
 };
 
 
