@@ -10,9 +10,7 @@
 // request.send();
 
 
-SC.initialize({
-  client_id: '472ea9cffc056ea4f5bc762b4bc00655',
-});
+
 
 function playSomeSound(genre){
 SC.get(
@@ -33,7 +31,9 @@ SC.get(
 
 
 window.onload=function(){
-
+SC.initialize({
+  client_id: '472ea9cffc056ea4f5bc762b4bc00655',
+});
 var link = document.getElementById('playButton');
 link.onclick = function(e){
   e.preventDefault();
