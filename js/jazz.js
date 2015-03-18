@@ -11,9 +11,9 @@
 
 
 
-function playSomeSound(){
+function playSomeSound(genre){
 SC.get('/tracks',{
-    // genres: genre,
+    genre: genre,
     bpm:{
       from:100
     }
@@ -33,7 +33,7 @@ SC.initialize({
 var link = document.getElementById('playButton')
 link.onclick = function(e){
   e.preventDefault();
-  playSomeSound();
+  playSomeSound("jazz");
   }
 };
 
