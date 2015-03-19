@@ -15,7 +15,7 @@ var randomTrack;
   });
 
  function playSomeSound() {
-    SC.get('/tracks', { bpm: 200, limit: 50 }, function(tracks){
+    SC.get('/tracks', { genres: genre, limit: 50 }, function(tracks){
       playRandomTrack(tracks);
       playlist = tracks;
     })
@@ -37,7 +37,7 @@ var randomTrack;
 
   $("#playButton").click(function(e){
     e.preventDefault();
-    playSomeSound();
+    playSomeSound("trap");
     pickRandomTrack() // also e.currentTarget
     embedTrack(randomTrack);
   });
