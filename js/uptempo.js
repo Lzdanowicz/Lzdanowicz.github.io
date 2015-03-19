@@ -14,7 +14,7 @@ var randomTrack;
     client_id: '472ea9cffc056ea4f5bc762b4bc00655',
   });
 
- function playSomeSound() {
+ function playSomeSound(genre) {
     SC.get('/tracks', { genres: genre, limit: 50 }, function(tracks){
       playRandomTrack(tracks);
       playlist = tracks;
