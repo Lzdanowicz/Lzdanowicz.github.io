@@ -14,8 +14,8 @@ var randomTrack;
     client_id: '472ea9cffc056ea4f5bc762b4bc00655',
   });
 
- function playSomeSound(genre) {
-    SC.get('/tracks', { genres: genre, limit: 50 }, function(tracks){
+ function playSomeSound() {
+    SC.get('/tracks', { bpm: 200, limit: 50 }, function(tracks){
       playRandomTrack(tracks);
       playlist = tracks;
     })
@@ -37,54 +37,7 @@ var randomTrack;
 
   $("#playButton").click(function(e){
     e.preventDefault();
-    playSomeSound("jazz");
+    playSomeSound();
     pickRandomTrack() // also e.currentTarget
     embedTrack(randomTrack);
   });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// function playSomeSound(genre){
-// SC.get(
-//   '/tracks',
-//     {
-//     genres:genre,
-//     limit:100
-//   },
-//   function(tracks){
-//     var random=Math.floor(Math.random()*49);
-//     SC.oEmbed(tracks[random].permalink_url, {auto_play:true}, document.getElementsByClassName('target'));
-//   });
-// };
-
-
-
-// window.onload=function(){
-// SC.initialize({
-//   client_id: '472ea9cffc056ea4f5bc762b4bc00655',
-// });
-// var link = document.getElementById('playButton');
-// link.onclick = function(e){
-//   e.preventDefault();
-//   playSomeSound("jazz");
-//   };
-// };
-
-
-
-
-
